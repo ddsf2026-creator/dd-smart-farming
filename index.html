@@ -15,25 +15,149 @@
       background: #0f172a;
       color: #e5e7eb;
     }
+
     header {
       background: #064e3b;
-      padding: 30px;
+      padding: 40px 20px;
       text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 30px;
-    }
-    h2 {
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
       color: #34d399;
     }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #d1fae5;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #34d399;
+      margin-bottom: 15px;
+    }
+
     .box {
       background: #020617;
-      padding: 20px;
-      border-radius: 10px;
-      margin-bottom: 20px;
+      padding: 25px 20px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
     }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      background: #020617;
+      color: #9ca3af;
+      border-top: 2px solid #064e3b;
+    }
+
+    footer a {
+      color: #34d399;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>D & D SMART FARMING</h1>
+  <p>Secure • Sustainable • Innovation-driven Farming Project</p>
+</header>
+
+<section>
+
+  <div class="box">
+    <h2>About Project</h2>
+    <p>
+      D & D Smart Farming is an innovative agriculture concept focused on
+      sustainability, efficient farming practices, and modern technology adoption.
+      Technical details and sensor data are confidential and not shared publicly.
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Key Highlights</h2>
+    <ul>
+      <li>Solar-powered sustainable farming system</li>
+      <li>Water-efficient and eco-friendly approach</li>
+      <li>Pesticide-free production vision</li>
+      <li>Scalable and modular design for future expansion</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Founders</h2>
+    <p>
+      <strong>Pathar Darshan Lakhabhai</strong><br>
+      Founder – D & D Smart Farming
+    </p>
+
+    <p>
+      <strong>Piprotar Dilip B.</strong><br>
+      Founder – D & D Smart Farming
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Confidentiality</h2>
+    <p>
+      System design, IoT logic, sensor data, and control mechanisms are strictly protected
+      and not shared on this public platform to maintain intellectual property and security.
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Contact for More Details</h2>
+    <p>
+      For inquiries or more information about D & D Smart Farming, please email us at:<br>
+      <a href="mailto:ddsf2026@gmail.com">📧 ddsf2026@gmail.com</a>
+    </p>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 D & D Smart Farming. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
     footer {
       text-align: center;
       padding: 15px;
