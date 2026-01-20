@@ -4,63 +4,67 @@
   <meta charset="UTF-8">
   <title>D & D Smart Farming</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta http-equiv="X-Frame-Options" content="DENY">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
   <style>
+    /* Base styles */
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f5f1;
+      color: #1f2937;
     }
 
+    /* Header */
     header {
-      background: #064e3b;
-      padding: 40px 20px;
+      background: linear-gradient(90deg, #16a34a, #059669);
+      padding: 50px 20px;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      color: #f0fdf4;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.5em;
-      color: #34d399;
+      font-size: 3em;
     }
 
     header p {
-      margin-top: 10px;
       font-size: 1.2em;
-      color: #d1fae5;
+      margin-top: 10px;
     }
 
+    /* Sections */
     section {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 40px auto;
       padding: 0 20px;
     }
 
     h2 {
-      color: #34d399;
+      color: #16a34a;
       margin-bottom: 15px;
+      border-left: 5px solid #059669;
+      padding-left: 10px;
     }
 
     .box {
-      background: #020617;
+      background: #ffffff;
       padding: 25px 20px;
       border-radius: 15px;
       margin-bottom: 25px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-      transition: transform 0.3s;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
     }
 
     .box:hover {
       transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
 
     ul {
-      list-style-type: disc;
+      list-style-type: square;
       padding-left: 20px;
     }
 
@@ -68,23 +72,29 @@
       margin-bottom: 10px;
     }
 
-    footer {
-      text-align: center;
-      padding: 25px 15px;
-      background: #020617;
-      color: #9ca3af;
-      border-top: 2px solid #064e3b;
-    }
-
-    footer a {
-      color: #34d399;
+    /* Contact & Footer */
+    a {
+      color: #059669;
       text-decoration: none;
       font-weight: bold;
     }
 
-    @media (max-width: 600px) {
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      background: #064e3b;
+      color: #f0fdf4;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #a7f3d0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
       header h1 {
-        font-size: 2em;
+        font-size: 2.2em;
       }
       header p {
         font-size: 1em;
@@ -97,17 +107,18 @@
 
 <header>
   <h1>D & D SMART FARMING</h1>
-  <p>Secure • Sustainable • Innovation-driven Farming Project</p>
+  <p>Innovation • Sustainability • Technology-driven Agriculture</p>
 </header>
 
 <section>
 
   <div class="box">
-    <h2>About Project</h2>
+    <h2>About the Project</h2>
     <p>
-      D & D Smart Farming is an innovative agriculture concept focused on
-      sustainability, efficient farming practices, and modern technology adoption.
-      Technical details and sensor data are confidential and not shared publicly.
+      D & D Smart Farming is a modern agriculture initiative aimed at
+      enhancing crop efficiency, water conservation, and pesticide-free farming.
+      IoT, solar energy, and step-based farming techniques are integrated
+      while keeping technical designs confidential.
     </p>
   </div>
 
@@ -115,9 +126,10 @@
     <h2>Key Highlights</h2>
     <ul>
       <li>Solar-powered sustainable farming system</li>
-      <li>Water-efficient and eco-friendly approach</li>
-      <li>Pesticide-free production vision</li>
-      <li>Scalable and modular design for future expansion</li>
+      <li>Automated water-efficient irrigation</li>
+      <li>Pesticide-free and eco-friendly production</li>
+      <li>Scalable, modular design for future expansion</li>
+      <li>Digital monitoring and farmer support</li>
     </ul>
   </div>
 
@@ -137,15 +149,16 @@
   <div class="box">
     <h2>Confidentiality</h2>
     <p>
-      System design, IoT logic, sensor data, and control mechanisms are strictly protected
-      and not shared on this public platform to maintain intellectual property and security.
+      System design, IoT logic, sensor data, and control mechanisms are
+      protected and not shared on this public platform to ensure security
+      and intellectual property protection.
     </p>
   </div>
 
   <div class="box">
     <h2>Contact for More Details</h2>
     <p>
-      For inquiries or more information about D & D Smart Farming, please email us at:<br>
+      For inquiries or collaboration opportunities, please email us at:<br>
       <a href="mailto:ddsf2026@gmail.com">📧 ddsf2026@gmail.com</a>
     </p>
   </div>
