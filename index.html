@@ -1,146 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>D & D Smart Farming | Smart Agriculture Startup</title>
-  <meta name="description" content="D & D Smart Farming is a smart agriculture startup focused on sustainable, solar-powered and technology-driven farming solutions." />
+  <meta charset="UTF-8">
+  <title>D & D Smart Farming</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="D & D Smart Farming – Smart & Sustainable Agriculture for Farmers">
+
   <style>
-    body {margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#333;}
-    header {background:linear-gradient(120deg,#2e7d32,#66bb6a);color:#fff;padding:60px 20px;text-align:center;}
-    header h1 {font-size:2.5rem;margin-bottom:10px;}
-    header p {font-size:1.1rem;max-width:700px;margin:auto;}
-    nav {background:#1b5e20;padding:10px;text-align:center;}
-    nav a {color:#fff;margin:0 12px;text-decoration:none;font-weight:bold;}
-    section {padding:50px 20px;max-width:1000px;margin:auto;}
-    h2 {color:#2e7d32;margin-bottom:20px;}
-    .grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-    .card {background:#f9f9f9;border-radius:12px;padding:20px;box-shadow:0 4px 10px rgba(0,0,0,0.08);}    
-    footer {background:#1b5e20;color:#fff;text-align:center;padding:20px;margin-top:40px;}
-    .btn {display:inline-block;margin-top:15px;padding:12px 25px;background:#2e7d32;color:#fff;text-decoration:none;border-radius:25px;}
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f7f6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2e7d32, #66bb6a);
+      color: #fff;
+      padding: 45px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    nav {
+      background: #1b5e20;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 14px 18px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      background: #2e7d32;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 25px auto;
+      background: #fff;
+      padding: 40px 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #f9f9f9;
+      padding: 20px;
+      border-left: 4px solid #66bb6a;
+      border-radius: 5px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1b5e20;
+    }
+
+    .safe-box {
+      background: #fff3e0;
+      border-left: 5px solid #ef6c00;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 15px;
+    }
+
+    .cta {
+      text-align: center;
+      background: #e8f5e9;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 28px;
+      background: #2e7d32;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .cta a:hover {
+      background: #1b5e20;
+    }
+
+    footer {
+      background: #1b5e20;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      padding: 14px 16px;
+      border-radius: 50%;
+      text-decoration: none;
+      font-size: 22px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .whatsapp:hover {
+      background: #1ebe5d;
+    }
   </style>
+
+  <!-- Project Protection -->
+  <script>
+    document.addEventListener("contextmenu", e => e.preventDefault());
+    document.addEventListener("keydown", function(e) {
+      if (e.ctrlKey && (e.key === "u" || e.key === "s" || e.key === "c")) {
+        e.preventDefault();
+      }
+    });
+  </script>
 </head>
+
 <body>
 
 <header>
   <h1>D & D Smart Farming</h1>
-  <p>Innovation • Sustainability • Technology-driven Agriculture</p>
-  <a class="btn" href="#contact">Contact Us</a>
+  <p>Innovation • Sustainability • Technology-Driven Agriculture</p>
 </header>
 
 <nav>
   <a href="#about">About</a>
-  <a href="#solutions">Solutions</a>
-  <a href="#founders">Founders</a>
-  <a href="#vision">Vision</a>
+  <a href="#services">Services</a>
+  <a href="#benefits">Benefits</a>
+  <a href="#projects">Projects</a>
   <a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
-  <h2>About the Project</h2>
+  <h2>About Us</h2>
   <p>
-    <strong>D & D Smart Farming</strong> is a modern agriculture startup initiative focused on improving crop productivity while protecting the environment. 
-    We integrate renewable energy, smart water management and innovative farming techniques to support farmers and future-ready agriculture.
+    <strong>D & D Smart Farming</strong> is an agriculture innovation initiative
+    dedicated to helping farmers increase income, reduce cost, and adopt
+    sustainable, pesticide-free farming practices using modern technology.
   </p>
 </section>
 
-<section id="solutions">
-  <h2>What We Offer to Farmers & Students</h2>
+<section id="services">
+  <h2>Our Services</h2>
   <div class="grid">
     <div class="card">
-      <h3>👨‍🌾 For Farmers</h3>
-      <p>
-        • Low-cost smart irrigation systems<br>
-        • Solar-powered farming solutions<br>
-        • Water saving & yield improvement techniques<br>
-        • Guidance for sustainable & pesticide-free farming
-      </p>
+      <h3>🌱 Smart Irrigation</h3>
+      <p>Water-efficient drip & sprinkler automation for higher yield.</p>
     </div>
     <div class="card">
-      <h3>🎓 For Students</h3>
-      <p>
-        • Practical learning on smart farming<br>
-        • Project-based exposure (IoT, solar, agri-tech)<br>
-        • Innovation & startup mindset development<br>
-        • Real field experience with modern agriculture
-      </p>
+      <h3>☀️ Solar Farming</h3>
+      <p>Solar pumps, solar fencing & off-grid power solutions.</p>
+    </div>
+    <div class="card">
+      <h3>🌿 Aeroponics & Hydroponics</h3>
+      <p>Soil-less farming systems for small land & high production.</p>
+    </div>
+    <div class="card">
+      <h3>🐄 Green Fodder Planning</h3>
+      <p>Low-cost fodder models for dairy & livestock farmers.</p>
     </div>
   </div>
 </section>
 
-<section id="technology">
-  <h2>Core Technologies Explained</h2>
+<section id="benefits">
+  <h2>Benefits for Farmers</h2>
   <div class="grid">
-    <div class="card">
-      <h3>🌿 Aeroponics</h3>
-      <p>
-        <strong>What is Aeroponics?</strong><br>
-        Aeroponics is a modern farming method where plant roots grow in air and receive nutrients through mist spray instead of soil.
-      </p>
-      <p>
-        <strong>Benefits:</strong><br>
-        • Uses up to 90% less water<br>
-        • Faster plant growth<br>
-        • Higher yield in small space<br>
-        • Ideal for students, research & smart farms
-      </p>
-    </div>
-    <div class="card">
-      <h3>💎 Solid Laser Technology</h3>
-      <p>
-        <strong>What is Solid Laser?</strong><br>
-        Solid-state laser technology is used for precision cutting, measurement and agricultural research applications.
-      </p>
-      <p>
-        <strong>Profit & Use:</strong><br>
-        • High accuracy & low energy loss<br>
-        • Useful in agri-research & automation<br>
-        • Long-term cost saving<br>
-        • Future scope in smart farming systems
-      </p>
-    </div>
+    <div class="card">✔ Higher crop yield</div>
+    <div class="card">✔ Reduced farming cost</div>
+    <div class="card">✔ Water & energy saving</div>
+    <div class="card">✔ Environment-friendly farming</div>
   </div>
 </section>
 
-<section id="founders">
-  <h2>Founders</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Pathar Darshan Lakhabhai</h3>
-      <p><strong>Founder</strong></p>
-      <p>Diploma Chemical Engineering student and innovation-driven entrepreneur focused on sustainable agriculture.</p>
-    </div>
-    <div class="card">
-      <h3>Dilip Piprotar</h3>
-      <p><strong>Co-Founder</strong></p>
-      <p>Co-founder supporting technical development, operations and growth strategy.</p>
-    </div>
+<section id="projects">
+  <h2>Projects & Innovation (Safe View)</h2>
+  <ul>
+    <li>Smart drip automation concept</li>
+    <li>Solar-based farm unit model</li>
+    <li>Pesticide-free vegetable farming</li>
+    <li>IoT soil & moisture monitoring</li>
+  </ul>
+
+  <div class="safe-box">
+    🔒 <strong>Confidentiality Notice:</strong><br>
+    This website shows only concept-level information.
+    All technical designs, calculations, control logic and implementation
+    details are confidential and shared only after official discussion.
   </div>
 </section>
 
-<section id="vision">
-  <h2>Our Vision & Mission</h2>
-  <p>
-    <strong>Vision:</strong> To build a sustainable and technology-driven agriculture ecosystem in India.
-  </p>
-  <p>
-    <strong>Mission:</strong> To empower farmers with affordable, smart and eco-friendly farming solutions.
-  </p>
-</section>
-
-<section id="contact">
-  <h2>Contact Information</h2>
-  <p>
-    📍 India <br />
-    📧 Email: contact@ddsf.com (future official email) <br />
-  
-  </p>
-  <p style="font-size:0.9rem;color:#666;">Note: This website represents a startup project initiative. Designs and concepts are confidential.</p>
+<section id="contact" class="cta">
+  <h2>Contact Us</h2>
+  <p>Farmers, students & startups can contact us for guidance.</p>
+  <p><strong>Email:</strong> ddsf2026@gmail.com</p>
+  <p><strong>Location:</strong> Gujarat, India</p>
+  <a href="mailto:ddsf2026@gmail.com">Contact for Demo</a>
 </section>
 
 <footer>
-  <p>© 2026 D & D Smart Farming. All Rights Reserved.</p>
+  © 2026 D & D Smart Farming. All Rights Reserved.<br>
+  Contact: ddsf2026@gmail.com | Built for Farmers 🌾
 </footer>
+
+<!-- WhatsApp Button (number optional) -->
+<a class="whatsapp" href="https://wa.me/?text=Hello%20D%20%26%20D%20Smart%20Farming" target="_blank">💬</a>
 
 </body>
 </html>
